@@ -1,0 +1,217 @@
+#diagnosis-history .dh-head {
+   font-size: var(--font-24px);
+}
+
+#diagnosis-history .blood-pressure-container {
+   background-color: var(--purple);
+   margin-top: 2.5vw;
+   padding: 1vw;
+   border-radius: .75vw;
+   display: flex;
+   gap: .8vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper {
+   width: 68%;
+   padding-right: .5vw;
+   height: 16.3vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer {
+   display: flex;
+   justify-content: space-between;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer h2 {
+   font-size: var(--font-18px);
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer .duration-wrapper {
+   display: flex;
+   gap: .4vw;
+   align-items: center;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer .duration-wrapper p {
+   font-size: var(--font-14px);
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer .duration-wrapper div {
+   width: .7vw;
+   display: flex;
+   align-items: center;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .bp-left-flexer .duration-wrapper div img {
+   width: 100%;
+   height: 100%;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-left-wrapper .chart {
+   margin-top: 1vw;
+}
+
+
+/*========= Right Wrapper =========*/
+/*========= Right Wrapper =========*/
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper {
+   padding-left: .5vw;
+   width: 32%;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper {
+   padding-left: .5vw;
+   display: flex;
+   flex-direction: column;
+   gap: .5vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper:nth-child(1) {
+   border-bottom: .1vw solid #CBC8D4;
+   padding-bottom: 1vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper:nth-child(2) {
+   padding-top: 1vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper .dot-flexer {
+   display: flex;
+   align-items: center;
+   gap: .2vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper .dot-flexer .dot {
+   width: var(--font-14px);
+   height: var(--font-14px);
+   /* background-color: #E66FD2; */
+   border-radius: 50%;
+}
+
+.pink {
+   background-color: #E66FD2;
+}
+
+.purple {
+   background-color: #8C6FE6;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .systolic-Diastolic-wrapper .dot-flexer h2 {
+   font-size: var(--font-14px);
+   font-weight: 800;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper p {
+   font-size: clamp(4.5px, 1.38vw, 50px);
+   font-weight: bolder;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .status-flexer {
+   display: flex;
+   align-items: center;
+   gap: .5vw;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .status-flexer div {
+   width: .8vw;
+   display: flex;
+   align-items: center;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .status-flexer div img {
+   width: 100%;
+   height: 100%;
+}
+
+#diagnosis-history .blood-pressure-container .blood-pressure-right-wrapper .status-flexer p {
+   font-size: var(--font-14px);
+   font-weight: 500;
+}
+
+.details-flexer-container {
+   display: flex;
+   gap: 1.32vw;
+   margin-top: 1.25vw;
+}
+
+.details-flexer-container .detail-box {
+   width: 33.3%;
+   height: fit-content;
+   padding: 1vw;
+   border-radius: .75vw;
+   display: flex;
+   flex-direction: column;
+}
+
+.clr-blue {
+   background-color: var(--blue);
+}
+
+.clr-pink1 {
+   background-color: var(--pink1);
+}
+
+.clr-pink2 {
+   background-color: var(--pink2);
+}
+
+.details-flexer-container .detail-box .ditail-img-wrapper {
+   width: 6vw;
+   height: 6vw;
+   border-radius: 50%;
+}
+
+.details-flexer-container .detail-box .ditail-img-wrapper img {
+   width: 100%;
+   height: 100%;
+}
+
+.details-flexer-container .detail-box #db-1 {
+   font-size: var(--font-16px);
+   margin-top: 1vw;
+}
+
+.details-flexer-container .detail-box #db-2 {
+   font-size: 1.9vw;
+   font-weight: bolder;
+}
+
+.details-flexer-container .detail-box #db-3 {
+   font-size: var(--font-14px);
+   margin-top: 1vw;
+}
+
+.details-flexer-container .detail-box .db-flexer {
+   display: flex;
+   gap: .3vw;
+   align-items: center;
+   margin-top: 1vw;
+}
+
+.details-flexer-container .detail-box .db-flexer div {
+   width: .8vw;
+   display: flex;
+   align-items: center;
+}
+
+.details-flexer-container .detail-box .db-flexer div img {
+   width: 100%;
+   height: 100%;
+}
+
+.details-flexer-container .detail-box .db-flexer #db-4 {
+   font-size: var(--font-14px);
+}
+
+/* #myChart {
+   width: 100%;
+   height: 100%;
+} */
+
+.chart {
+   /* background-color: aquamarine; */
+   width: 100%;
+   height: 14vw;
+   /* font-size: 8px; */
+}  

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Components/diagnosisHistory.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../fun.js"></script>
+
+</head>
+
+<body>
+
+    <h1 class="dh-head">Diagnosis History</h1>
+
+    <div class="blood-pressure-container">
+        <div class="blood-pressure-left-wrapper">
+            <div class="bp-left-flexer">
+                <h2>Blood Pressure</h2>
+                <div class="duration-wrapper">
+                    <p>Last 6 months</p>
+                    <div>
+                        <img src="../assests/dropdown_icon.svg" alt="dropdown_icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart">
+                <canvas id="myChart"></canvas>
+            </div>
+
+        </div>
+
+
+        <div class="blood-pressure-right-wrapper">
+            <div class="systolic-Diastolic-wrapper">
+                <div class="dot-flexer">
+                    <div class="dot pink"></div>
+                    <h2>Systolic</h2>
+                </div>
+                <p id="last_systolic"></p>
+
+                <div class="status-flexer">
+                    <div><img src="../assests/arrowupfill_icon.svg" alt=""></div>
+                    <p id="systolicStatus"></p>
+                </div>
+            </div>
+
+            <div class="systolic-Diastolic-wrapper">
+                <div class="dot-flexer">
+                    <div class="dot purple"></div>
+                    <h2>Diastolic</h2>
+                </div>
+                <p id="last_diastalic"></p>
+
+                <div class="status-flexer">
+                    <div><img src="../assests/arrowDownfill_icon.svg" alt=""></div>
+                    <p id="diastalicStatus"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="details-flexer-container">
+
+        <div class="detail-box clr-blue">
+            <div class="ditail-img-wrapper">
+                <img src="../assests/kidney.svg" alt="">
+            </div>
+            <p id="db-1">Respiratory Rate</p>
+            <h2 id="db-2" class="respiratory-rate">20 bpm</h2>
+            <p id="db-3" class="rr-level">Normal</p>
+        </div>
+
+        <div class="detail-box clr-pink1">
+            <div class="ditail-img-wrapper">
+                <img src="../assests/temprature.svg" alt="">
+            </div>
+            <p id="db-1">Temperature</p>
+            <h2 id="db-2" class="temperature"></h2>
+            <p id="db-3" class="temp-level">Normal</p>
+        </div>
+
+        <div class="detail-box clr-pink2">
+            <div class="ditail-img-wrapper">
+                <img src="../assests/heart.svg" alt="">
+            </div>
+            <p id="db-1">Heart Rate</p>
+            <h2 id="db-2" class="heart-rate">78 bpm</h2>
+
+            <div class="db-flexer">
+                <div><img src="../assests/arrowDownfill_icon.svg" alt=""></div>
+                <p id="db-4" class="hr-level">Normal</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="../fun.js"></script>
+    <script type="module">
+
+
+        // Chart.defaults.font.size = 12;
+        // function setResponsiveFontSize() {
+        //     if (window.innerWidth < 800) {
+        //         Chart.defaults.font.size = 4;
+        //     } else if (window.innerWidth < 1200) {
+        //         Chart.defaults.font.size = 8;
+        //     } else if (window.innerWidth < 2000) {
+        //         Chart.defaults.font.size = 12;
+        //     }
+        //     else{
+        //         Chart.defaults.font.size = 17;
+        //     }
+        // }
+
+        // setResponsiveFontSize();
+
+        // const ctx = document.getElementById('myChart').getContext('2d');
+
+
+        // function runchart() {
+        //     const myChart = new Chart(ctx, {
+        //         type: 'line',
+        //         data: {
+        //             labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+        //             datasets: [{
+        //                 data: [60, 80, 100, 120, 10, 160, 180],
+        //                 backgroundColor: 'rgba(75, 192, 192, 0.2)', 
+        //                 borderColor: 'rgba(75, 192, 192, 1)',       
+        //                 borderWidth: 2
+        //             }]
+        //         },
+        //         options: {
+        //             responsive: true,
+        //             maintainAspectRatio: false,
+        //             plugins: {
+        //                 legend: {
+        //                     display: false
+        //                 },
+
+        //             },
+        //             tension: .4,
+        //             scales: {
+        //                 x: {
+        //                     grid: {
+        //                         display: false,
+        //                     }
+        //                 },
+                     
+
+        //             }
+        //         }
+        //     });
+
+        // }
+
+        // runchart()
+
+        // window.addEventListener('resize', () => {
+        //     setResponsiveFontSize();
+        //     runchart();
+        // });
+    </script>
+
+
+</body>
+
+</html>

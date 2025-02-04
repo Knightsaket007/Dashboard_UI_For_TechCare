@@ -1,0 +1,127 @@
+#navbar-container {
+  background-color: var(--white);
+  width: 97.7%;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+  border-radius: 70px;
+  border-radius: 4.37vw;
+  display: flex;
+  align-items: center;
+  padding: 0 1vw;
+}
+
+#navbar-container .nav-logo-holder {
+  width: fit-content;
+  height: 3vw;
+  margin: .75vw 0;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-container .nav-logo-holder img {
+  width: 100%;
+  height: 100%;
+}
+
+#navbar-container .links-wrapper {
+  display: flex;
+  gap: .4vw;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#navbar-container .links-wrapper a {
+  font-size: var(--font-14px);
+  text-decoration: none;
+  color: var(--black-001);
+  font-weight: bolder;
+  display: flex;
+  gap: .5vw;
+  align-items: center;
+  padding: .69vw 1vw;
+  border-radius: 2.6vw;
+}
+
+#navbar-container .links-wrapper a:hover {
+  transition: .4s all;
+  background-color: var(--green);
+}
+
+#navbar-container .links-wrapper a img {
+  height: 1.17vw;
+}
+
+#navbar-container .account-detail-wrapper {
+  display: flex;
+  align-items: center;
+  gap: .7vw;
+  /* background-color: brown; */
+  height: fit-content;
+  margin-right: 1vw;
+
+}
+
+#navbar-container .account-detail-wrapper .account-img-holder {
+  background-color: var(--gray);
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-container .account-detail-wrapper .account-img-holder img{
+ width: 100%;
+ height: 100%;
+}
+
+#navbar-container .account-detail-wrapper .name-holder {
+  display: flex;
+  flex-direction: column;
+  /* background-color: pink; */
+  /* width: 2.8vw; */
+  height: 2.8vw;
+  padding-right: .8vw;
+  border-right: 1px solid var(--gray);
+}
+
+#navbar-container .account-detail-wrapper .name-holder p {
+  font-size: var(--font-14px);
+  margin: 0;
+}
+
+#navbar-container .account-detail-wrapper .name-holder p:nth-child(1) {
+  font-weight: bold;
+}
+
+#navbar-container .account-detail-wrapper .name-holder p:nth-child(1) {
+  font-weight: bold;
+}
+
+#navbar-container .account-detail-wrapper .setting-img-holder{
+  height: 1.25vw;
+  display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+#navbar-container .account-detail-wrapper .setting-img-holder img{
+ width: 100%;
+ height: 100%;
+}
+
+#navbar-container .account-detail-wrapper .ellipse-img-holder{
+ height: 1.2vw;
+ margin-left: .3vw;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+#navbar-container .account-detail-wrapper .ellipse-img-holder img{
+  width: 100%;
+ height: 100%;
+}
