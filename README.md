@@ -15,3 +15,4 @@
 
 ![App Screenshot](https://raw.githubusercontent.com/Knightsaket007/Dashboard_UI_For_TechCare/refs/heads/main/assests/screenshot.png)
 
+[![Visit Dashboard](https://img.shields.io/badge/Visit_Dashboard-0A66C2?style=for-the-badge&logo=netlify&logoColor=white)](https://dashboard-for-medicaltech-bysaket.netlify.app/)
