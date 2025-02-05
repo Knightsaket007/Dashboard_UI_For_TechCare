@@ -7,7 +7,7 @@
 2. Dynamically render diffent components.
 3. Test API Data.
 4. Use of Chart Js for showing Statistical data in graph.
-5. Work responsive  even remove media queries.
+5. Work responsive even media queries removed.
 
 
 
