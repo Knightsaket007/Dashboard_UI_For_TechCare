@@ -1,4 +1,16 @@
 
+setTimeout(() => {
+  const preloader = document.querySelector('.preloader');
+  preloader.classList.add('hide'); 
+  
+  setTimeout(() => {
+    preloader.style.display = 'none';
+  }, 800);
+}, 2000);
+
+
+
+
 const loadComponent = (url, id_of_element) => {
     fetch(url)
         .then(res => res.text())
