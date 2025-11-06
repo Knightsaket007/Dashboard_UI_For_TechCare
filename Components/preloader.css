@@ -1,0 +1,24 @@
+.preloader{
+    position: fixed;
+    inset: 0;
+    background-color: white;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader .img-container{
+    width: 150px;
+    height: 150px;
+}
+
+.preloader .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
